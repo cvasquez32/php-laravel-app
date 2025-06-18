@@ -1,5 +1,5 @@
 <x-layout>
-  <x-slot name="title">
+  <x-slot:title>
     Contact Us
   </x-slot>
   <form action="/contact" method="POST" novalidate>
