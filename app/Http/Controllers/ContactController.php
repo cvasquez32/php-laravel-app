@@ -14,7 +14,7 @@ class ContactController extends Controller
     return view('messages', ['messages' => Message::all()]);
   }
 
-  public function showForm()
+  public function showForm(): View
   {
     return view('contact');
   }
