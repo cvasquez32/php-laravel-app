@@ -9,11 +9,6 @@ use Illuminate\View\View;
 
 class ItemController extends Controller
 {
-  public function showItem(): View
-  {
-    return view('items', ['items' => Item::all()]);
-  }
-
   public function showItemForm(): View
   {
     return view('itemForm');
@@ -27,6 +22,6 @@ class ItemController extends Controller
       'price' => $request->input('price'),
     ]);
 
-    return redirect('/items');
+    return redirect('/');
   }
 }

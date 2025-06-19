@@ -14,8 +14,7 @@
     <x-nav-link href="/about">About</x-nav-link> |
     <x-nav-link href="/contact">Contact</x-nav-link> |
     <x-nav-link href="/messages">Messages</x-nav-link> |
-    <x-nav-link href="/itemForm">Submit Item</x-nav-link> |
-    <x-nav-link href="/items">Available Items</x-nav-link> |
+    <x-nav-link href="/itemForm">Submit Item</x-nav-link>
   </nav>
 
   {{ $slot }}
