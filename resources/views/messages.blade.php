@@ -1,5 +1,5 @@
 <x-layout>
-  <x-slot:title>>
+  <x-slot:title>
     Messages
   </x-slot>
   @foreach ($messages as $message)
