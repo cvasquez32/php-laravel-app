@@ -24,3 +24,5 @@ Route::post('/contact', [ContactController::class, 'storeMessage']);
 Route::get('/itemForm', [ItemController::class, 'showItemForm']);
 
 Route::post('/itemForm', [ItemController::class, 'storeItem']);
+
+Route::delete('/${id}', [ItemController::class, 'destroy'])->name('destroy');

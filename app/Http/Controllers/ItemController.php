@@ -24,4 +24,12 @@ class ItemController extends Controller
 
     return redirect('/');
   }
+
+  public function destroy($id)
+  {
+    $item = Item::findOrFail($id);
+    $item->delete();
+
+    return redirect('/');
+  }
 }
