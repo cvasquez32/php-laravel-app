@@ -7,12 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Message extends Model
 {
-    use HasFactory;
+  use HasFactory;
 
-    protected $fillable = [
-      'sender_name',
-      'sender_email',
-      'message',
-      'created_at'
-    ];
+  protected $fillable = [
+    'sender_name',
+    'sender_email',
+    'message',
+    'created_at'
+  ];
 }
