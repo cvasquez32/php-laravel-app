@@ -1,6 +1,6 @@
 <x-layout>
   <x-slot:title>
-    <span class="text-2xl font-bold text-white">About Us</span>
+    About Us
     </x-slot>
 
     <div class="space-y-6">

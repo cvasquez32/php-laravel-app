@@ -2,6 +2,7 @@
   @foreach ($items as $item)
   <div class="bg-white text-gray-900 rounded-lg shadow p-6">
     <h2 class="text-xl font-semibold mb-2">{{ $item->name }}</h2>
+    <h5 class="text-sm mb-2">Posted on: {{ $item->created_at->format('F j, Y')}}</h5>
     <h3 class="text-lg text-indigo-600 font-medium mb-2">${{ number_format($item->price, 2) }}</h3>
     <p class="text-sm text-gray-700">{{ $item->description }}</p>
   </div>

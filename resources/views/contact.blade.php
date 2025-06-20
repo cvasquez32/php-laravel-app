@@ -1,6 +1,6 @@
 <x-layout>
   <x-slot:title>
-    <span class="text-2xl font-bold text-white">Contact Us</span>
+    Contact Us
     </x-slot>
 
     <form action="/contact" method="POST" novalidate>

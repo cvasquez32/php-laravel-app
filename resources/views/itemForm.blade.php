@@ -1,6 +1,6 @@
 <x-layout>
   <x-slot:title>
-    <span class="text-2xl font-bold text-white">Create New Item</span>
+    Create New Item
     </x-slot>
 
     <form action="/itemForm" method="POST" novalidate>
